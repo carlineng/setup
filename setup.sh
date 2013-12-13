@@ -6,6 +6,7 @@
 # https://github.com/creationix/nvm
 sudo apt-get install -y git
 sudo apt-get install -y curl
+sudo apt-get install -y python-pip
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Load nvm and install latest production node
