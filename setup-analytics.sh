@@ -21,3 +21,8 @@ ln -sb dotfiles/.vimrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
+
+# install python management tools
+sudo pip install virtualenvwrapper
+echo "export WORKON_HOME=$HOME/.virtualenvs" >> dotfiles/.bashrc
+echo "export PROJECT_HOME=$HOME/Devel" >> dotfiles/.bashrc
