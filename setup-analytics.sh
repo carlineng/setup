@@ -6,7 +6,7 @@
 # https://github.com/creationix/nvm
 sudo apt-get install -y git
 sudo apt-get install -y curl
-sudo apt-get install -y python-pip
+sudo apt-get install -y python-pip python-dev build-essential
 
 # git pull and install dotfiles as well
 cd $HOME
