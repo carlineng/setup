@@ -8,7 +8,8 @@ follows:
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/carlineng/setup.git
-./setup/setup.sh   
+./setup/setup.sh
+# ./setup/setup-analytics.sh
 ```
 
 See also http://github.com/startup-class/dotfiles and
