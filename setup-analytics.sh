@@ -4,10 +4,11 @@
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
+sudo apt-get update
+
 sudo apt-get install -y git
 sudo apt-get install -y curl
 
-supo apt-get update
 sudo apt-get install -y python-pip 
 sudo apt-get install -y python-dev
 sudo apt-get install -y build-essential
