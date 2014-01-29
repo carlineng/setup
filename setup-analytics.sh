@@ -26,3 +26,4 @@ ln -sb dotfiles/.bashrc_custom .
 sudo pip install virtualenvwrapper
 echo "export WORKON_HOME=$HOME/.virtualenvs" >> dotfiles/.bashrc
 echo "export PROJECT_HOME=$HOME/Devel" >> dotfiles/.bashrc
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> dotfiles/.bashrc
