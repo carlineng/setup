@@ -14,6 +14,9 @@ sudo apt-get install -y build-essential
 
 sudo apt-get install -y libatlas-base-dev
 sudo apt-get install -y gfortran
+sudo apt-get install -y libpng-dev
+sudo apt-get install -y libjpeg8-dev
+sudo apt-get install -y libfreetype6-dev
 
 # git pull and install dotfiles as well
 cd $HOME
