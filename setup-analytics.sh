@@ -12,6 +12,9 @@ sudo apt-get install -y python-pip
 sudo apt-get install -y python-dev
 sudo apt-get install -y build-essential
 
+sudo apt-get install -y libatlas-base-dev
+sudo apt-get install -y gfortran
+
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
@@ -35,3 +38,5 @@ echo "source /usr/local/bin/virtualenvwrapper.sh" >> dotfiles/.bashrc
 source ~/.bashrc
 mkvirtualenv default
 workon default
+pip install numpy
+pip install scipy
