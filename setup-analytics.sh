@@ -48,3 +48,4 @@ pip install matplotlib
 pip install scikit-learn
 pip install pymc
 pip install ipython
+pip install pandas
