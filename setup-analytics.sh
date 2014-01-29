@@ -44,3 +44,5 @@ workon default
 pip install numpy
 pip install scipy
 pip install matplotlib
+pip install scikit-learn
+pip install pymc
