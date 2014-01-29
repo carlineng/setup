@@ -8,6 +8,7 @@ sudo apt-get update -y
 
 sudo apt-get install -y git
 sudo apt-get install -y curl
+sudo apt-get install -y s3cmd
 
 sudo apt-get install -y python-pip 
 sudo apt-get install -y python-dev
