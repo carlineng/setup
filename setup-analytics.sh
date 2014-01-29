@@ -8,7 +8,9 @@ sudo apt-get install -y git
 sudo apt-get install -y curl
 
 supo apt-get update
-sudo apt-get install -y python-pip python-dev build-essential
+sudo apt-get install -y python-pip 
+sudo apt-get install -y python-dev
+sudo apt-get install -y build-essential
 
 # git pull and install dotfiles as well
 cd $HOME
