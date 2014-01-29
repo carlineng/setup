@@ -47,3 +47,4 @@ pip install scipy
 pip install matplotlib
 pip install scikit-learn
 pip install pymc
+pip install ipython
